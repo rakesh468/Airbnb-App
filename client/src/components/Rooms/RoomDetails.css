@@ -1,0 +1,28 @@
+.detail-image {
+  height: 450px;
+  width: 450px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.detail-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.detail_room {
+  font-size: 18px;
+}
+
+@media (max-width: 720px) {
+  .detail-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .detail-image {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.rooms {
+  margin-top: 20px;
+}
+
+.delete-all {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 10px;
+  text-align: center;
+}
+
+.delete-all input {
+  height: 20px;
+  width: 20px;
+}

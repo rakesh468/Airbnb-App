@@ -1,0 +1,10 @@
+.home_section {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 750px) {
+  .home_section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
