@@ -18,7 +18,7 @@ function Register() {
     try {
       await axios.post("/user/register", { ...user });
       localStorage.setItem("firstlogin", true);
-      window.location.href = "/login";
+      window.location.href = "/";
     } catch (error) {
       alert(error.response.data.msg);
     }
