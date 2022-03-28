@@ -11,12 +11,12 @@ function Register() {
 
   const onChangeInput = async (e) => {
     const { name, value } = e.target;
-    setuser({ ...user, [name]: value });
-  };
+    setuser({ ...user, [name]: value })
+  }
   const registerSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("/user/register", { ...user });
+      await axios.post("/user/register", { ...user })
       localStorage.setItem("firstlogin", true)
       window.location.href = "/"
     } catch (error) {
