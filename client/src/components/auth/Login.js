@@ -12,8 +12,8 @@ function Login() {
   });
 
   const onChangeInput = async (event) => {
-    const { name, value } = event.target;
-    setuser({ ...user, [name]: value });
+    const { name, value } = event.target
+    setuser({ ...user, [name]: value })
   };
   const loginSubmit = async (event) => {
     event.preventDefault();
