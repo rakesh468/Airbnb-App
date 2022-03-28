@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Button from "@mui/material/Button";
 
+// Register Routes//
 function Register() {
   const [user, setuser] = useState({
     name: "",
